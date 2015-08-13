@@ -7,3 +7,4 @@ include:
     - slave.sysctl
     - slave.tsocks
     - slave.grub
+    - slave.timesyncd
