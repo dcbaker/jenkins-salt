@@ -6,3 +6,4 @@ include:
     - slave.sudoers
     - slave.sysctl
     - slave.tsocks
+    - slave.grub
