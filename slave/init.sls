@@ -1,8 +1,8 @@
 include:
-    - localgit
-    - logind
-    - sound
-    - sources
-    - sudoers
-    - sysctl
-    - tsocks
+    - slave.localgit
+    - slave.logind
+    - slave.sound
+    - slave.sources
+    - slave.sudoers
+    - slave.sysctl
+    - slave.tsocks
