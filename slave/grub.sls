@@ -5,4 +5,10 @@
     - group: root
     - mode: 644
 
+update-grub:
+    cmd.run:
+        - require:
+            - file: /etc/default/grub
+
+
 # vim: ft=yaml
