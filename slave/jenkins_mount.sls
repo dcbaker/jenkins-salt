@@ -1,8 +1,5 @@
 /mnt/jenkins:
-    file.directory:
-        - user: root
-        - group: root
-        - mode: 666
+    file.directory: []
 
 /etc/systemd/system/mnt-jenkins.mount:
     file.managed:
