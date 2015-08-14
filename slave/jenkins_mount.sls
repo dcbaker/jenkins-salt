@@ -18,11 +18,4 @@
         - group: root
         - mode: 644
 
-mnt-jenkins.mount:
-    service.running:
-        - require:
-            - file: /mnt/jenkins
-            - file: /etc/systemd/system/mnt-jenkins.mount
-            - file: /etc/systemd/system/mnt-jenkins.automount
-
 # vim: ft=yaml
