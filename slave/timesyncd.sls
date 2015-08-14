@@ -14,11 +14,10 @@
             - file: /etc/systemd/timesyncd.conf.d
 
 ntpd:
-    service.dead:
+    - service.dead:
         - enable: False
-
-ntp:
-    pkg.removed: []
+    - pkg.removed:
+        - name: ntp
         - require:
             - service: ntpd
 
