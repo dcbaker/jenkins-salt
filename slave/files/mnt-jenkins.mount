@@ -1,0 +1,5 @@
+[Mount]
+What=otc-mesa-ci.local:/srv/jenkins
+Where=/mnt/jenkins
+Type=nfs
+Options=defaults

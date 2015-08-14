@@ -8,3 +8,4 @@ include:
     - slave.tsocks
     - slave.grub
     - slave.timesyncd
+    - slave.jekins_mount

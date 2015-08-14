@@ -1,0 +1,6 @@
+[Unit]
+Before=remote-fs.target
+
+[Automount]
+Where=/mnt/jenkins
+
