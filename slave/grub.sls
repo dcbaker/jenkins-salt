@@ -7,7 +7,7 @@
 
 update-grub:
     cmd.run:
-        - onchange:
+        - onchanges:
             - file: /etc/default/grub
 
 
