@@ -16,13 +16,18 @@
 ntpd:
     service.dead:
         - enable: False
+
+ntp:
     pkg.removed: []
+        - require:
+            - service: ntpd
+
 
 systemd-timesyncd:
     service.running:
         - enable: True
         - require:
             - file: /etc/systemd/timesyncd.conf.d/time.conf
-            - pkg: ntpd
+            - pkg: ntp
 
 # vim: ft=yaml
