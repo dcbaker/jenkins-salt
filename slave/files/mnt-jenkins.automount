@@ -4,3 +4,5 @@ Before=remote-fs.target
 [Automount]
 Where=/mnt/jenkins
 
+[Install]
+WantedBy=multi-user.target
