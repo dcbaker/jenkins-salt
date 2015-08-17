@@ -4,4 +4,4 @@ include:
 extend:
     /etc/default/grub:
         file:
-            source: salt://bsw/files/grub
+            - source: salt://bsw/files/grub
