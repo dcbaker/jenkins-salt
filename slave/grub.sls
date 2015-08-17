@@ -13,7 +13,7 @@ update-grub:
 system.reboot:
     module.run:
         - require:
-            - id: update-grub
+            - ID: update-grub
 
 
 # vim: ft=yaml
