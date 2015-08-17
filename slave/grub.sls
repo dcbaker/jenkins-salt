@@ -10,10 +10,11 @@ update-grub:
         - onchanges:
             - file: /etc/default/grub
 
-system.reboot:
+reboot:
     module.run:
+        - name: system.reboot
         - require:
-            - name: update-grub
+            - sls: update-grub
 
 
 # vim: ft=yaml
