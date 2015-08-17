@@ -12,8 +12,10 @@ update-grub:
         - require_in:
             - sls: grub-reboot
 
-grub-reboot:
-    system.reboot: []
+system.reboot:
+    module.run:
+        - require:
+            - sls: update-grub
 
 
 # vim: ft=yaml
