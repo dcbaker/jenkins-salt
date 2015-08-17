@@ -9,6 +9,11 @@ update-grub:
     cmd.run:
         - onchanges:
             - file: /etc/default/grub
+        - require_in:
+            - sls: grub-reboot
+
+grub-reboot:
+    system.reboot: []
 
 
 # vim: ft=yaml
