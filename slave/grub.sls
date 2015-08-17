@@ -9,8 +9,6 @@ update-grub:
     cmd.run:
         - onchanges:
             - file: /etc/default/grub
-        - require_in:
-            - sls: grub-reboot
 
 system.reboot:
     module.run:
