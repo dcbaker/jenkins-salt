@@ -10,3 +10,4 @@ include:
     - slave.timesyncd
     - slave.jenkins_mount
     - slave.minion
+    - slave.journald
