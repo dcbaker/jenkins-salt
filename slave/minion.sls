@@ -14,7 +14,7 @@
 
 /etc/salt/minion.d/schedule.conf:
     file.managed:
-        - source: salt://salve/files/schedule.yaml
+        - source: salt://slave/files/schedule.yaml
         - user: root
         - group: root
         - mode: 644
