@@ -21,12 +21,17 @@ ntpd:
         - require:
             - service: ntpd
 
-
 systemd-timesyncd:
     service.running:
         - enable: True
         - require:
             - file: /etc/systemd/timesyncd.conf.d/time.conf
             - pkg: ntp
+
+restart-timesyncd:
+    service.restart:
+        - name: systemd-timesyncd
+        - onchanges:
+            - file: /etc/systemd/timesyncd.conf.d/time.conf
 
 # vim: ft=yaml
