@@ -19,12 +19,4 @@
         - group: root
         - mode: 644
 
-restart-salt-minion:
-    service.restart:
-        - name: salt-minion
-        - onchanges:
-            - file: /etc/salt/minion.d/master.conf
-            - file: /etc/salt/minion.d/startup.conf
-            - file: /etc/salt/minion.d/schedule.conf
-
 # vim: ft=yaml
