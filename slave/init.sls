@@ -11,3 +11,4 @@ include:
     - slave.jenkins_mount
     - slave.minion
     - slave.journald
+    - slave.packages
