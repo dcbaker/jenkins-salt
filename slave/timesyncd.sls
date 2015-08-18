@@ -29,8 +29,9 @@ systemd-timesyncd:
             - pkg: ntp
 
 restart-timesyncd:
-    service.restart:
-        - name: systemd-timesyncd
+    module.run:
+        - name: service.restart
+        - m_name: systemd-timesyncd
         - onchanges:
             - file: /etc/systemd/timesyncd.conf.d/time.conf
 
