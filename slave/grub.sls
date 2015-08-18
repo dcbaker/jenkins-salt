@@ -11,6 +11,8 @@ update-grub:
             - file: /etc/default/grub
     module.run:
         - name: system.reboot
+        - onchanges:
+            - file: /etc/default/grub
 
 
 # vim: ft=yaml
