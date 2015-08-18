@@ -9,12 +9,8 @@ update-grub:
     cmd.run:
         - onchanges:
             - file: /etc/default/grub
-
-reboot:
     module.run:
         - name: system.reboot
-        - require:
-            - sls: update-grub
 
 
 # vim: ft=yaml
