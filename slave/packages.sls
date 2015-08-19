@@ -5,6 +5,7 @@
 slave-packages:
     pkg.installed:
         - refresh: True
+        - normalize: False
         - pkgs:
             - vim
             - sudo
