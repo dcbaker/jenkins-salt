@@ -4,6 +4,7 @@
 
 slave-packages:
     pkg.installed:
+        - refresh: True
         - pkgs:
             - vim
             - sudo
@@ -35,8 +36,8 @@ slave-packages:
             - emacs
             - freeglut3
             - freeglut3:i386
-            - gcc-4.9-base
-            - gcc-4.9-base:i386
+            - gcc-5-base
+            - gcc-5-base:i386
             - libc6
             - libc6:i386
             - libc6-dev
