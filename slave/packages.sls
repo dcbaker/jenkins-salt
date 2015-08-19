@@ -17,7 +17,6 @@ slave-packages:
             - gcc-multilib
             - g++-multilib
             - openjdk-7-jre
-            - tsocks
             - git
             - libtool
             - autoconf
