@@ -1,4 +1,4 @@
-/etc/sudoers.d/:
+/etc/sudoers.d:
     file.directory:
         - user: root
         - group: root
