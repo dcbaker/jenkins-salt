@@ -2,11 +2,17 @@
 # for more complex requirements see:
 # http://docs.saltstack.com/en/latest/ref/states/all/salt.states.pkg.html
 
+include:
+    - slave.timesyncd
+
 slave-packages:
     pkg.installed:
+        - require:
+            - sls: slave.timesyncd
         - refresh: True
         - normalize: False
         - pkgs:
+            # - tsocks ## This is currently removed from testing and breaks if it is required here.
             - vim
             - sudo
             - build-essential
