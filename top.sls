@@ -3,5 +3,7 @@ base:
         - slave
     '*bsw*':
         - bsw
+    '*bdw*':
+        - bdw
 
 # vim: ft=yaml
