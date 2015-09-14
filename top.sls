@@ -5,5 +5,7 @@ base:
         - bsw
     '*bdw*':
         - bdw
+    '*hsw*':
+        - hsw
 
 # vim: ft=yaml
