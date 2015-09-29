@@ -31,6 +31,7 @@ slave-packages:
             - flex
             - llvm
             - cmake
+            - compton
             - pkg-config
             - python-git
             - quilt
@@ -133,6 +134,7 @@ slave-packages:
             - x11proto-dri3-dev
             - x11proto-gl-dev
             - x11proto-present-dev
+            - xorg
             - xutils-dev
             - valgrind
 
