@@ -12,3 +12,4 @@ include:
     - slave.minion
     - slave.journald
     - slave.packages
+    - slave.xorg
