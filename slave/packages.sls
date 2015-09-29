@@ -78,6 +78,7 @@ slave-packages:
             - libegl1-mesa-drivers
             - libegl1-mesa-drivers:i386
             - libglapi-mesa
+            - libgles2-mesa-dev
             - libglu1-mesa
             - libglu1-mesa:i386
             - libglu1-mesa-dev
