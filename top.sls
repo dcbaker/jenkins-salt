@@ -9,5 +9,7 @@ base:
         - hsw
     '*snb*':
         - snb
+    '*skl*':
+        - skl
 
 # vim: ft=yaml
