@@ -19,8 +19,4 @@ mnt-jenkins.mount:
             - file: /etc/systemd/system/mnt-jenkins.automount
         - enable: True
 
-mnt-jenkins.automount:
-    service.dead:
-        -enable: False
-
 # vim: ft=yaml
