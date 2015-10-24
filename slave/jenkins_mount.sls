@@ -11,7 +11,7 @@
 /etc/systemd/system/mnt-jenkins.automount:
     file.absent: []
 
-mnt-jenkins.automount:
+mnt-jenkins.mount:
     service.running:
         - require:
             - file: /mnt/jenkins
