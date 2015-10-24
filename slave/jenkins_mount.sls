@@ -21,6 +21,6 @@ mnt-jenkins.mount:
 
 mnt-jenkins.automount:
     service.dead:
-        -enable: False
+        - enable: False
 
 # vim: ft=yaml
