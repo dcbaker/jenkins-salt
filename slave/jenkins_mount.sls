@@ -9,11 +9,7 @@
         - mode: 644
 
 /etc/systemd/system/mnt-jenkins.automount:
-    file.managed:
-        - source: salt://slave/files/mnt-jenkins.automount
-        - user: root
-        - group: root
-        - mode: 644
+    file.absent: []
 
 mnt-jenkins.automount:
     service.running:

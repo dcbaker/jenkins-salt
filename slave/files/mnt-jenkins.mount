@@ -1,5 +1,11 @@
+[Unit]
+After=remote-fs.target
+
 [Mount]
-What=otc-mesa-ci.local:/srv/jenkins
+What=192.168.1.1:/srv/jenkins
 Where=/mnt/jenkins
 Type=nfs
 Options=defaults
+
+[Install]
+WantedBy=multi-user.target
