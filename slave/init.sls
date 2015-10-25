@@ -8,7 +8,6 @@ include:
     - slave.tsocks
     - slave.grub
     - slave.timesyncd
-    - slave.jenkins_mount
     - slave.minion
     - slave.journald
     - slave.packages
