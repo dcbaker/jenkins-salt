@@ -130,6 +130,7 @@ slave-packages:
             - linux-libc-dev:i386
             - libssl-dev
             - libssl-dev:i386
+            - ntp
             - scons
             - x11proto-dri2-dev
             - x11proto-dri3-dev
