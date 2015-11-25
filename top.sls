@@ -7,6 +7,8 @@ base:
         - bdw
     '*hsw*':
         - hsw
+    '*ivbgt1*':
+        - ivbgt1
     '*snb*':
         - snb
     '*skl*':
