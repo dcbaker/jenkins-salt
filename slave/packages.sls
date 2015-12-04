@@ -18,6 +18,7 @@ slave-packages:
             - bison
             - build-essential
             - ccache
+            - clang
             - cmake
             - compton
             - docbook-website
@@ -119,6 +120,7 @@ slave-packages:
             - linux-libc-dev
             - linux-libc-dev:i386
             - llvm
+            - ninja-build
             - ntp
             - openjdk-7-jre
             - pkg-config
