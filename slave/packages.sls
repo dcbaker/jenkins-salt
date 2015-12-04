@@ -13,59 +13,50 @@ slave-packages:
         - normalize: False
         - pkgs:
             # - tsocks ## This is currently removed from testing and breaks if it is required here.
-            - vim
-            - sudo
-            - build-essential
-            - python-simplejson
-            - python-lxml
-            - python-mako
-            - python-numpy
-            - gcc-multilib
-            - g++-multilib
-            - openjdk-7-jre
-            - git
-            - libtool
             - autoconf
-            - ccache
+            - avahi-daemon
             - bison
-            - flex
-            - llvm
+            - build-essential
+            - ccache
             - cmake
             - compton
-            - pkg-config
-            - python-git
-            - quilt
             - docbook-website
-            - vim-nox
-            - avahi-daemon
-            - libdrm2
-            - libdrm2:i386
             - emacs
+            - flex
             - freeglut3
             - freeglut3:i386
+            - g++-multilib
             - gcc-5-base
             - gcc-5-base:i386
+            - gcc-multilib
+            - git
             - libc6
-            - libc6:i386
             - libc6-dev
             - libc6-dev:i386
+            - libc6:i386
             - libcaca0
             - libcaca0:i386
+            - libdrm2
+            - libdrm2:i386
             - libegl1-mesa
-            - libegl1-mesa:i386
+            - libegl1-mesa
             - libegl1-mesa-dev
+            - libegl1-mesa-drivers
+            - libegl1-mesa-drivers:i386
+            - libegl1-mesa:i386
+            - libegl1-mesa:i386
             - libelf-dev
             - libelf-dev:i386
             - libexpat1-dev
             - libexpat1-dev:i386
             - libffi-dev
+            - libffi-dev
             - libffi-dev:i386
             - libffi6
             - libffi6:i386
-            - libffi-dev
+            - libgbm-dev
             - libgbm1
             - libgbm1:i386
-            - libgbm-dev
             - libgcc1
             - libgcc1:i386
             - libgl1-mesa-dev
@@ -73,15 +64,11 @@ slave-packages:
             - libgl1-mesa-dri:i386
             - libgl1-mesa-glx
             - libgl1-mesa-glx:i386
-            - libegl1-mesa
-            - libegl1-mesa:i386
-            - libegl1-mesa-drivers
-            - libegl1-mesa-drivers:i386
             - libglapi-mesa
             - libgles2-mesa-dev
             - libglu1-mesa
-            - libglu1-mesa:i386
             - libglu1-mesa-dev
+            - libglu1-mesa:i386
             - libllvm3.4
             - libllvm3.4:i386
             - libpciaccess-dev
@@ -90,8 +77,11 @@ slave-packages:
             - libpciaccess0:i386
             - libpng12-dev
             - libpthread-stubs0-dev
+            - libssl-dev
+            - libssl-dev:i386
             - libtinfo-dev
             - libtinfo-dev:i386
+            - libtool
             - libudev-dev
             - libudev-dev:i386
             - libvdpau-dev
@@ -128,16 +118,26 @@ slave-packages:
             - libxxf86vm-dev:i386
             - linux-libc-dev
             - linux-libc-dev:i386
-            - libssl-dev
-            - libssl-dev:i386
+            - llvm
             - ntp
+            - openjdk-7-jre
+            - pkg-config
+            - python-git
+            - python-lxml
+            - python-mako
+            - python-numpy
+            - python-simplejson
+            - quilt
             - scons
+            - sudo
+            - valgrind
+            - vim
+            - vim-nox
             - x11proto-dri2-dev
             - x11proto-dri3-dev
             - x11proto-gl-dev
             - x11proto-present-dev
             - xorg
             - xutils-dev
-            - valgrind
 
 # vim: ft=yaml
