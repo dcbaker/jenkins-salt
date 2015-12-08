@@ -13,6 +13,7 @@ slave-packages:
         - normalize: False
         - pkgs:
             # - tsocks ## This is currently removed from testing and breaks if it is required here.
+            - asciidoc
             - autoconf
             - avahi-daemon
             - bison
@@ -111,6 +112,7 @@ slave-packages:
             - libxext-dev:i386
             - libxfixes-dev
             - libxfixes-dev:i386
+            - libxml2-dev
             - libxrender1
             - libxrender1:i386
             - libxshmfence-dev
