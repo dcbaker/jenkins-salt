@@ -122,6 +122,7 @@ slave-packages:
             - linux-libc-dev
             - linux-libc-dev:i386
             - llvm
+            - python-opencv
             - ninja-build
             - ntp
             - openjdk-7-jre
