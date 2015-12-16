@@ -20,6 +20,7 @@ slave-packages:
             - build-essential
             - ccache
             - clang
+            - clang-3.7
             - cmake
             - compton
             - docbook-website
