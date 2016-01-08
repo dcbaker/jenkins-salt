@@ -13,5 +13,7 @@ base:
         - snb
     '*skl*':
         - skl
+    '*kbl*':
+        - kbl
 
 # vim: ft=yaml
