@@ -72,8 +72,8 @@ slave-packages:
             - libglu1-mesa
             - libglu1-mesa-dev
             - libglu1-mesa:i386
-            - libllvm3.4
-            - libllvm3.4:i386
+            - libllvm3.5
+            - libllvm3.5:i386
             - libpciaccess-dev
             - libpciaccess-dev:i386
             - libpciaccess0
