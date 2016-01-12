@@ -1,3 +1,6 @@
+dev:
+    'otc-gfxtest-g965-03*':
+        - slave
 base:
     'otc-gfxtest-*':
         - slave
