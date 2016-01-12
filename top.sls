@@ -15,5 +15,8 @@ base:
         - skl
     '*kbl*':
         - kbl
+dev:
+    'otc-gfxtest-g965-03':
+        - slave
 
 # vim: ft=yaml
