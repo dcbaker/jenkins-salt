@@ -125,7 +125,6 @@ slave-packages:
             - llvm
             - python-opencv
             - ninja-build
-            - ntp
             - openjdk-7-jre
             - pkg-config
             - python-git
