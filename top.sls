@@ -16,7 +16,7 @@ base:
     '*kbl*':
         - kbl
 dev:
-    'otc-gfxtest-g965-03':
+    'otc-gfxtest-g965-03*':
         - slave
 
 # vim: ft=yaml
