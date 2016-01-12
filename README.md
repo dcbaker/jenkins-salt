@@ -12,3 +12,24 @@ All units should be organized into top level 'units', for example 'slave' or 'bs
 ### Partial Files
 
 Whenever possible leave files that may need to be unique per machine (say /etc/fstab) unmanaged, and use an alternative that can be managed more easily (like systemd .mount and .automount files). This allows us to separate files that salt doesn't need to manage from those it does.
+
+
+## Using the "dev" branch
+
+We use a dev branch for testing changes on a single branch before merging them into the master.
+
+The first thing to do is to update the `top.sls` file on the dev branch by adding a "dev" catagory:
+
+```yaml
+dev:
+    '<matches only the hardware to test on>:
+        - slave
+base:
+    ...
+```
+
+Make sure that the match will only find the hardware to test on, and not multiple pieces of hardware.
+
+Once you've done that, update the server with the following command: ```sudo salt-run fileserver.update```, which will pull from the git tree (it handles force pushes, so feel free). Then run ```sudo salt '<matches your hardware>' state.highstate saltenv="dev"``` It is very important to use ```saltenv="dev"```, otherwise you'll get errors.
+
+Once everything is good, revert your changes to the top.sls file, and merge into master.
