@@ -133,6 +133,12 @@ slave-packages:
             - python-numpy
             - python-simplejson
             - python-subprocess32
+            - python3
+            - python3-numpy
+            - python3-six
+            - python3-mako
+            - python3-lxml
+            - python3-simplejson
             - quilt
             - scons
             - sudo
