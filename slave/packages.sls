@@ -72,6 +72,7 @@ slave-packages:
             - libglu1-mesa
             - libglu1-mesa-dev
             - libglu1-mesa:i386
+            - libicu-dev:i386
             - libllvm3.7
             - libllvm3.7:i386
             - libpciaccess-dev
@@ -114,6 +115,7 @@ slave-packages:
             - libxfixes-dev
             - libxfixes-dev:i386
             - libxml2-dev
+            - libxml2-dev:i386
             - libxrender1
             - libxrender1:i386
             - libxshmfence-dev
