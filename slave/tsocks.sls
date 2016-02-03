@@ -3,7 +3,7 @@ tsocks:
 
 /etc/tsocks.conf:
   file.managed:
-    - source: salt://runner/files/tsocks.conf
+    - source: salt://slave/files/tsocks/tsocks.conf
     - user: root
     - group: root
     - mode: 644

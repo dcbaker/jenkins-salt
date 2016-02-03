@@ -8,4 +8,3 @@ include:
     - runner.sudoers
     - runner.sysctl
     - runner.timesyncd
-    - runner.tsocks
