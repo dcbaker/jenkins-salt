@@ -9,6 +9,5 @@ include:
     - slave.tsocks
     - slave.grub
     - slave.timesyncd
-    - slave.journald
     - slave.packages
     - slave.ssh_keys
