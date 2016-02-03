@@ -2,7 +2,6 @@ include:
     - slave.localgit
     - slave.chmodtty
     - slave.logind
-    - slave.sound
     - slave.sudoers
     - slave.sysctl
     - slave.tsocks
