@@ -6,7 +6,7 @@
 
 /etc/systemd/timesyncd.conf.d/time.conf:
     file.managed:
-        - source: salt://runner/files/time.conf
+        - source: salt://slave/files/timesyncd/time.conf
         - user: root
         - group: root
         - mode: 644

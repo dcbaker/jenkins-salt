@@ -7,4 +7,3 @@ include:
     - runner.ssh_keys
     - runner.sudoers
     - runner.sysctl
-    - runner.timesyncd

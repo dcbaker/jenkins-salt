@@ -3,12 +3,12 @@
 # http://docs.saltstack.com/en/latest/ref/states/all/salt.states.pkg.html
 
 include:
-    - runner.timesyncd
+    - slave.timesyncd
 
 runner-packages:
     pkg.installed:
         - require:
-            - sls: runner.timesyncd
+            - sls: slave.timesyncd
         - refresh: True
         - normalize: False
         - pkgs:
