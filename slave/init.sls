@@ -3,7 +3,6 @@ include:
     - slave.chmodtty
     - slave.logind
     - slave.sound
-    - slave.sources
     - slave.sudoers
     - slave.sysctl
     - slave.tsocks

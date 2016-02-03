@@ -1,3 +1,4 @@
 include:
-    - base.minion
     - base.journald
+    - base.minion
+    - base.sources

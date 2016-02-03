@@ -1,6 +1,6 @@
 /etc/apt/sources.list:
   file.managed: 
-    - source: salt://slave/files/sources.list
+    - source: salt://base/files/sources/sources.list
     - user: root
     - group: root
     - mode: 644
