@@ -13,6 +13,7 @@ update-grub:
         - name: system.reboot
         - onchanges:
             - file: /etc/default/grub
+        - order: last
 
 
 # vim: ft=yaml
