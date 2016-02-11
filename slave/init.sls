@@ -12,3 +12,4 @@ include:
     - slave.journald
     - slave.packages
     - slave.xorg
+    - slave.ssh_keys
