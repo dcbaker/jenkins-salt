@@ -1,0 +1,16 @@
+[Unit]
+Description=Jenkins CI server
+After=network.target
+Requires=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/default/jenkins
+ExecStart=/usr/bin/java ${JAVA_ARGS} -jar ${JENKINS_WAR} ${JENKINS_ARGS}
+User=jenkins
+Group=jenkins
+Restart=always
+RestartSec=20
+
+[Install]
+WantedBy=multi-user.target
