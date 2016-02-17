@@ -22,7 +22,6 @@ slave-packages:
             - clang
             - clang-3.7
             - cmake
-            - compton
             - docbook-website
             - emacs
             - flex
@@ -151,7 +150,6 @@ slave-packages:
             - x11proto-dri3-dev
             - x11proto-gl-dev
             - x11proto-present-dev
-            - xorg
             - xutils-dev
 
 # vim: ft=yaml
