@@ -71,6 +71,8 @@ slave-packages:
             - libglu1-mesa
             - libglu1-mesa-dev
             - libglu1-mesa:i386
+            - libgcrypt20-dev
+            - libgcrypt20-dev:i386
             - libicu-dev:i386
             - libllvm3.7
             - libllvm3.7:i386
@@ -82,6 +84,8 @@ slave-packages:
             - libpthread-stubs0-dev
             - libssl-dev
             - libssl-dev:i386
+            - libssl1.0.2
+            - libssl1.0.2:i386
             - libtinfo-dev
             - libtinfo-dev:i386
             - libtool
