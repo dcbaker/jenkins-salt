@@ -72,7 +72,7 @@ slave-packages:
             - libglu1-mesa-dev
             - libglu1-mesa:i386
             - libgcrypt20-dev
-            - libgcrypt20-dev:i386
+            - libgcrypt20:i386
             - libicu-dev:i386
             - libllvm3.7
             - libllvm3.7:i386
