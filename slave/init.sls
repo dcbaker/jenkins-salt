@@ -1,5 +1,6 @@
 include:
     - slave.localgit
+    - slave.chmodtty
     - slave.logind
     - slave.sound
     - slave.sources
