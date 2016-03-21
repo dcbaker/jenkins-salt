@@ -155,5 +155,6 @@ slave-packages:
             - x11proto-gl-dev
             - x11proto-present-dev
             - xutils-dev
+            - xserver-xorg
 
 # vim: ft=yaml
