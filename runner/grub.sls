@@ -1,6 +1,6 @@
 /etc/default/grub:
   file.managed:
-    - source: salt://slave/files/grub
+    - source: salt://runner/files/grub
     - user: root
     - group: root
     - mode: 644

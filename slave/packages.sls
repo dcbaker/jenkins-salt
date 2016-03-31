@@ -1,14 +1,14 @@
-# The format used by slave-packages allows for a very terse list of all pacakges
+# The format used by runner-packages allows for a very terse list of all pacakges
 # for more complex requirements see:
 # http://docs.saltstack.com/en/latest/ref/states/all/salt.states.pkg.html
 
 include:
-    - slave.timesyncd
+    - base.timesyncd
 
-slave-packages:
+runner-packages:
     pkg.installed:
         - require:
-            - sls: slave.timesyncd
+            - sls: base.timesyncd
         - refresh: True
         - normalize: False
         - pkgs:

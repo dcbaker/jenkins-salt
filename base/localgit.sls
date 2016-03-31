@@ -1,6 +1,6 @@
 /usr/local/bin/git:
   file.managed:
-    - source: salt://slave/files/git
+    - source: salt://base/files/localgit/git
     - user: root
     - group: root
     - mode: 775
