@@ -34,12 +34,12 @@
          - user: root
          - group: root
          - mode: 644
-         - require:
-             - pkg: jenkins
+         #- require:
+             #- pkg: jenkins
 
 /etc/systemd/system/jenkins.service:
     file.managed:
-        - source: salt://master/files/jenkins/jenkins.serivce
+        - source: salt://master/files/jenkins/jenkins.service
         - user: root
         - group: root
         - mode: 644
