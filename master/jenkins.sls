@@ -1,17 +1,21 @@
 python-apt:
     pkg.installed: []
 
+http_proxy:
+    environ.setenv:
+        - value: 'http://proxy.jf.intel.com:911/'
+
 jenkins-repo:
     pkgrepo.managed:
         - humanname: jenkins-ci
         - name: deb http://pkg.jenkins-ci.org/debian binary
         - dist: jenkins
-        - proxy: http://proxy.jf.intel.com:911/
-        - key_url: https://jenkins-ci.org/debian/jenkins-ci.org.key
+        - key_url: http://jenkins-ci.org/debian/jenkins-ci.org.key
         - file: /etc/apt/sources.list.d/jenkins.list
         - refresh_db: true
         - requires:
             - pkg: python-apt
+            - environ: http_proxy
 
 jenkins:
     pkg.installed:
