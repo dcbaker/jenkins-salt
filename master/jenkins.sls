@@ -28,7 +28,7 @@ jenkins-service:
             - file: /etc/default/jenkins
             - file: /etc/systemd/system/jenkins.service
 
- /etc/default/jenkins:
+/etc/default/jenkins:
      file.managed:
          - source: salt://master/files/jenkins/default.conf
          - user: root
