@@ -18,5 +18,4 @@ nfs-service:
         - require:
             - file: /etc/default/nfs-kernel-server
         - watch:
-            - file: /etc/exports
             - file: /etc/default/nfs-kernel-server
