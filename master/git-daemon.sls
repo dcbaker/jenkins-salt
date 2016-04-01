@@ -7,9 +7,9 @@ git-daemon-run:
         - group: root
         - mode: 755
 
-/etc/systemd/system/git-daemon.service.d/reboot.conf:
+/etc/systemd/system/git-daemon.service.d/restart.conf:
     file.managed:
-        - source: salt://master/files/git-daemon/reboot.conf
+        - source: salt://master/files/git-daemon/restart.conf
         - user: root
         - group: root
         - mode: 644
@@ -24,4 +24,4 @@ git-daemon-service:
         - require:
             - pkg: git-daemon-run
         - watch:
-            - file: /etc/systemd/system/git-daemon.service.d/reboot.conf
+            - file: /etc/systemd/system/git-daemon.service.d/restart.conf
