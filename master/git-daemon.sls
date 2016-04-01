@@ -1,4 +1,4 @@
-git-daemon-run:
+git-daemon-sysvinit:
     pkg.installed: []
 
 /etc/systemd/system/git-daemon.service.d:
@@ -22,6 +22,6 @@ git-daemon-service:
         - enable: True
         - reload: True
         - require:
-            - pkg: git-daemon-run
+            - pkg: git-daemon-sysvinit
         - watch:
             - file: /etc/systemd/system/git-daemon.service.d/restart.conf
