@@ -9,7 +9,6 @@ master-packages:
         - pkgs:
             - tsocks
             - screen
-            - git-daemon-run
             - openjdk-7-jre
             - vim
             - vim-nox
