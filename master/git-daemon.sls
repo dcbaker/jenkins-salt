@@ -14,7 +14,7 @@ git-daemon-run:
         - group: root
         - mode: 644
         - require:
-            - file: /etc/systemd/system/git-deamon.service.d
+            - file: /etc/systemd/system/git-daemon.service.d
 
 git-daemon-service:
     service.running:
