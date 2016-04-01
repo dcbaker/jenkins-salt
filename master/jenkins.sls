@@ -1,5 +1,5 @@
 python-apt:
-    pkg-installed: []
+    pkg.installed: []
 
 jenkins-repo:
     pkgrepo.managed:
