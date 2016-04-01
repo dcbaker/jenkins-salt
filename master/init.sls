@@ -2,7 +2,7 @@ include:
     - master.apache
     - master.git-daemon
     - master.jenkins
-    - master.nfs-server
+    - master.nfs
     - master.packages
 
 #    - master.salt-master
