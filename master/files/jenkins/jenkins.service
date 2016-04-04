@@ -6,7 +6,7 @@ Requires=network.target
 [Service]
 Type=simple
 EnvironmentFile=/etc/default/jenkins
-ExecStart=/usr/bin/java ${JAVA_ARGS} -jar ${JENKINS_WAR} ${JENKINS_ARGS}
+ExecStart=/usr/bin/java $JAVA_ARGS -jar $JENKINS_WAR $JENKINS_ARGS
 User=jenkins
 Group=jenkins
 Restart=always
