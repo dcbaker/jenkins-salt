@@ -10,6 +10,7 @@ master-packages:
             - tsocks
             - screen
             - openjdk-7-jre
+            - python-beautifulsoup
             - vim
             - vim-nox
 
