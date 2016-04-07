@@ -11,6 +11,7 @@ master-packages:
             - screen
             - openjdk-7-jre
             - python-beautifulsoup
+            - python-git
             - vim
             - vim-nox
 
