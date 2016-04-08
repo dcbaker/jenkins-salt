@@ -1,0 +1,16 @@
+# Defaults for git-daemon initscript
+# sourced by /etc/init.d/git-daemon
+# installed at /etc/default/git-daemon by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+GIT_DAEMON_ENABLE=true
+GIT_DAEMON_USER=gitdaemon
+GIT_DAEMON_BASE_PATH=/var/lib
+GIT_DAEMON_DIRECTORY=/var/lib/git
+
+# Additional options that are passed to the Daemon.
+GIT_DAEMON_OPTIONS="--listen=192.168.1.1 --max-connections=64"
+#GIT_DAEMON_OPTIONS=""
