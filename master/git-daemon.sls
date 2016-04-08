@@ -16,6 +16,13 @@ git-daemon-sysvinit:
         - require:
             - file: /etc/systemd/system/git-daemon.service.d
 
+/etc/default/git-daemon:
+    file.managed:
+        - source: salt://master/files/git-daemon/git-daemon
+        - user: root
+        - group: root
+        - mode: 644
+
 git-daemon-service:
     service.running:
         - name: git-daemon
