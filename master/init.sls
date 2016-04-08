@@ -5,6 +5,7 @@ include:
     - master.nfs
     - master.packages
     - master.services
+    - master.backup
 
 #    - master.salt-master
 #    - master.dhcp-server
