@@ -1,5 +1,5 @@
 include:
-    - slave.grub
+    - runner.grub
 
 extend:
     /etc/default/grub:
