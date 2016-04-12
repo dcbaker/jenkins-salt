@@ -15,7 +15,7 @@
 
 /etc/sudoers.d/11-jenkins-tty:
   file.managed:
-    - source: salt://slave/files/11-jenkins-tty
+    - source: salt://runner/files/11-jenkins-tty
     - user: root
     - group: root
     - mode: 600
