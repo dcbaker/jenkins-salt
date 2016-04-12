@@ -10,7 +10,7 @@ rsnapshot:
         - require:
             - pkg: rsnapshot
 
-/etc/cron.daily/1rsnapshot.conf:
+/etc/cron.daily/1rsnapshot:
     file.managed:
         - source: salt://master/files/rsnapshot/cron.daily
         - user: root
@@ -19,7 +19,7 @@ rsnapshot:
         - require:
             - pkg: rsnapshot
 
-/etc/cron.weekly/1rsnapshot.conf:
+/etc/cron.weekly/1rsnapshot:
     file.managed:
         - source: salt://master/files/rsnapshot/cron.weekly
         - user: root
@@ -28,7 +28,7 @@ rsnapshot:
         - require:
             - pkg: rsnapshot
 
-/etc/cron.monthly/1rsnapshot.conf:
+/etc/cron.monthly/1rsnapshot:
     file.managed:
         - source: salt://master/files/rsnapshot/cron.monthly
         - user: root
