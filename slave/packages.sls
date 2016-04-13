@@ -40,6 +40,7 @@ runner-packages:
             - libcaca0:i386
             - libdrm2
             - libdrm2:i386
+            - libedit-dev
             - libegl1-mesa
             - libegl1-mesa
             - libegl1-mesa-dev
@@ -71,6 +72,9 @@ runner-packages:
             - libglu1-mesa
             - libglu1-mesa-dev
             - libglu1-mesa:i386
+            - libglu1-mesa
+            - libglu1-mesa-dev
+            - libglu1-mesa-dev:i386
             - libgcrypt20-dev
             - libgcrypt20:i386
             - libicu-dev:i386
@@ -81,6 +85,7 @@ runner-packages:
             - libpciaccess0
             - libpciaccess0:i386
             - libpng12-dev
+            - libpng12-dev:i386
             - libpthread-stubs0-dev
             - libssl-dev
             - libssl-dev:i386
