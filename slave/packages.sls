@@ -98,6 +98,8 @@ runner-packages:
             - libudev-dev:i386
             - libvdpau-dev
             - libvdpau-dev:i386
+            - libwayland-egl1-mesa
+            - libwayland-egl1-mesa:i386
             - libx11-dev
             - libx11-dev:i386
             - libx11-xcb-dev
