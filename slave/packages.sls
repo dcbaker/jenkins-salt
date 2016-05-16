@@ -84,8 +84,7 @@ runner-packages:
             - libpciaccess-dev:i386
             - libpciaccess0
             - libpciaccess0:i386
-            - libpng12-dev
-            - libpng12-dev:i386
+            - libpng12-0
             - libpthread-stubs0-dev
             - libssl-dev
             - libssl-dev:i386
