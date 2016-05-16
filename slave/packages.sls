@@ -137,7 +137,7 @@ runner-packages:
             - llvm
             - python-opencv
             - ninja-build
-            - openjdk-7-jre
+            - openjdk-8-jre
             - pkg-config
             - python-git
             - python-lxml
