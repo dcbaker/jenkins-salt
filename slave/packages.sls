@@ -145,6 +145,7 @@ runner-packages:
             - python-numpy
             - python-simplejson
             - python-subprocess32
+            - python-yaml
             - python3
             - python3-numpy
             - python3-six
