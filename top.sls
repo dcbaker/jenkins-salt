@@ -3,7 +3,7 @@ base:
         - base
     'otc-mesa-ci*':
         - master
-    'otc-gfxtest-*':
+    'otc-gfx*':
         - slave
         - runner
     '*snb*':
