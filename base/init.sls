@@ -1,4 +1,5 @@
 include:
+    - base.avahi
     - base.journald
     - base.localgit
     - base.minion
