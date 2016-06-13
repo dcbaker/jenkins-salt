@@ -87,6 +87,7 @@ runner-packages:
             - libpng-dev
             - libpng-dev:i386
             - libpthread-stubs0-dev
+            - libsdl2-2.0-0
             - libssl-dev
             - libssl-dev:i386
             - libssl1.0.2
