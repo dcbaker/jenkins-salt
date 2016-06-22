@@ -154,6 +154,7 @@ runner-packages:
             - python3-lxml
             - python3-simplejson
             - quilt
+            - rsync
             - scons
             - sudo
             - valgrind
