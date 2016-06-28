@@ -1,0 +1,3 @@
+Package: libjpeg8
+Pin: release a=unstable
+Pin-Priority: 910

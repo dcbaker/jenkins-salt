@@ -4,11 +4,13 @@
 
 include:
     - base.timesyncd
+    - slave.apt
 
 runner-packages:
     pkg.installed:
         - require:
             - sls: base.timesyncd
+            - sls: slave.apt
         - refresh: True
         - normalize: False
         - pkgs:
@@ -62,6 +64,8 @@ runner-packages:
             - libgbm1:i386
             - libgcc1
             - libgcc1:i386
+            - libgcrypt20-dev
+            - libgcrypt20:i386
             - libgl1-mesa-dev
             - libgl1-mesa-dri
             - libgl1-mesa-dri:i386
@@ -70,14 +74,13 @@ runner-packages:
             - libglapi-mesa
             - libgles2-mesa-dev
             - libglu1-mesa
-            - libglu1-mesa-dev
-            - libglu1-mesa:i386
             - libglu1-mesa
             - libglu1-mesa-dev
+            - libglu1-mesa-dev
             - libglu1-mesa-dev:i386
-            - libgcrypt20-dev
-            - libgcrypt20:i386
+            - libglu1-mesa:i386
             - libicu-dev:i386
+            - libjpeg8
             - libllvm3.7
             - libllvm3.7:i386
             - libpciaccess-dev
@@ -136,7 +139,6 @@ runner-packages:
             - linux-libc-dev
             - linux-libc-dev:i386
             - llvm
-            - python-opencv
             - ninja-build
             - openjdk-8-jre
             - pkg-config
@@ -144,15 +146,16 @@ runner-packages:
             - python-lxml
             - python-mako
             - python-numpy
+            - python-opencv
             - python-simplejson
             - python-subprocess32
             - python-yaml
             - python3
-            - python3-numpy
-            - python3-six
-            - python3-mako
             - python3-lxml
+            - python3-mako
+            - python3-numpy
             - python3-simplejson
+            - python3-six
             - quilt
             - rsync
             - scons
@@ -164,7 +167,7 @@ runner-packages:
             - x11proto-dri3-dev
             - x11proto-gl-dev
             - x11proto-present-dev
-            - xutils-dev
             - xserver-xorg
+            - xutils-dev
 
 # vim: ft=yaml

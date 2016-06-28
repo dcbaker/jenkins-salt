@@ -1,7 +1,7 @@
 /etc/systemd/timesyncd.conf.d:
     file.directory:
         - user: root
-        - gorup: root
+        - group: root
         - mode: 755
 
 /etc/systemd/timesyncd.conf.d/time.conf:
