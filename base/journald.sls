@@ -1,5 +1,5 @@
 /var/log/journal:
     file.directory:
         - user: root
-        - gorup: root
+        - group: root
         - mode: 600
