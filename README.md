@@ -33,7 +33,7 @@ Whenever possible leave files that may need to be unique per machine (say /etc/f
 
 ## Using the "dev" branch
 
-We use a dev branch for testing changes on a single branch before merging them into the master.
+We use a dev branch for testing changes on a single machine before merging them into the master.
 
 The first thing to do is to update the `top.sls` file on the dev branch by adding a "dev" catagory:
 
