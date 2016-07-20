@@ -1,3 +1,6 @@
+avahi-daemon:
+    pkg.installed: []
+
 /etc/default/avahi-daemon:
   file.managed:
     - source: salt://base/files/avahi/default
