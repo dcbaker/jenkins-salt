@@ -102,6 +102,7 @@ runner-packages:
             - libudev-dev:i386
             - libvdpau-dev
             - libvdpau-dev:i386
+            - libvulkan-dev
             - libwayland-egl1-mesa
             - libwayland-egl1-mesa:i386
             - libx11-dev
