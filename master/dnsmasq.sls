@@ -1,3 +1,6 @@
+dnsmasq:
+    pkg.installed: []
+
 /etc/dnsmasq.conf:
     file.managed:
         - source: salt://base/files/dnsmasq/dnsmasq.conf
