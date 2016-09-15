@@ -1,5 +1,6 @@
 include:
     - master.apache
+    - master.dnsmasq
     - master.git-daemon
     - master.jenkins
     - master.nfs
