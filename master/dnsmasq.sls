@@ -3,7 +3,7 @@ dnsmasq:
 
 /etc/dnsmasq.conf:
     file.managed:
-        - source: salt://base/files/dnsmasq/dnsmasq.conf
+        - source: salt://master/files/dnsmasq/dnsmasq.conf
         - user: root
         - group: root
         - mode: 644
