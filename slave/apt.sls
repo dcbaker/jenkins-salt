@@ -24,6 +24,16 @@
             - file: /etc/apt/preferences.d/
             - file: /etc/apt/sources.list.d/unstable.list
 
+/etc/apt/preferences.d/tsocks:
+    file.managed:
+        - source: salt://slave/files/apt/preferences.d/tsocks
+        - user: root
+        - group: root
+        - mode: 644
+        - require:
+            - file: /etc/apt/preferences.d/
+            - file: /etc/apt/sources.list.d/unstable.list
+
 /etc/apt/sources.list.d/:
     file.directory:
         - user: root
