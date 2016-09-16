@@ -139,6 +139,7 @@ runner-packages:
             - linux-libc-dev
             - linux-libc-dev:i386
             - llvm
+            - nfs-common
             - ninja-build
             - openjdk-8-jre
             - pkg-config
