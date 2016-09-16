@@ -13,20 +13,11 @@
         - require:
             - file: /etc/systemd/timesyncd.conf.d
 
-ntpd:
-    service.dead:
-        - enable: False
-    pkg.removed:
-        - name: ntp
-        - require:
-            - service: ntpd
-
 systemd-timesyncd:
     service.running:
         - enable: True
         - require:
             - file: /etc/systemd/timesyncd.conf.d/time.conf
-            - pkg: ntp
 
 restart-timesyncd:
     module.run:
