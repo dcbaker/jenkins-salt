@@ -1,5 +1,4 @@
 include:
-    - runner.chmodtty
     - runner.grub
     - runner.logind
     - runner.sudoers
