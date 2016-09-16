@@ -80,7 +80,6 @@ runner-packages:
             - libglu1-mesa-dev:i386
             - libglu1-mesa:i386
             - libicu-dev
-            - libicu-dev:i386
             - libjpeg8
             - libllvm3.7
             - libllvm3.7:i386
