@@ -130,7 +130,6 @@ runner-packages:
             - libxfixes-dev
             - libxfixes-dev:i386
             - libxml2-dev
-            - libxml2-dev:i386
             - libxrender1
             - libxrender1:i386
             - libxshmfence-dev
