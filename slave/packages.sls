@@ -125,6 +125,8 @@ runner-packages:
             - libxcb-xfixes0-dev:i386
             - libxdamage-dev
             - libxdamage-dev:i386
+            - libxkbcommon0
+            - libxkbcommon0:i386
             - libxext-dev
             - libxext-dev:i386
             - libxfixes-dev
