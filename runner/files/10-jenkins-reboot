@@ -1,1 +1,2 @@
 jenkins   ALL=(root: root) NOPASSWD: /sbin/reboot
+jenkins   ALL=(root: root) NOPASSWD: /usr/local/bin/copy_error_state.sh
