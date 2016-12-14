@@ -72,6 +72,7 @@ runner-packages:
             - libgl1-mesa-glx
             - libgl1-mesa-glx:i386
             - libglapi-mesa
+            - libgles1-mesa-dev
             - libgles2-mesa-dev
             - libglu1-mesa
             - libglu1-mesa
