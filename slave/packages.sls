@@ -81,9 +81,9 @@ runner-packages:
             - libglu1-mesa-dev:i386
             - libglu1-mesa:i386
             - libicu-dev
-            - libjpeg8
-            - libllvm4.0
-            - libllvm4.0:i386
+            - libjpeg-dev
+            - libllvm3.9
+            - libllvm3.9:i386
             - libpciaccess-dev
             - libpciaccess-dev:i386
             - libpciaccess0
