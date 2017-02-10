@@ -6,5 +6,6 @@ include:
     - base.mnt_jenkins
     - base.sound
     - base.sources
+    - base.syslog
     - base.timesyncd
     - base.tsocks
