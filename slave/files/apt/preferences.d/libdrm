@@ -1,0 +1,23 @@
+Package: libdrm2
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libdrm-dev
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libdrm-intel1
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libdrm-amdgpu1
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libdrm-nouveau2
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libdrm-radeon1
+Pin: release a=experimental
+Pin-Priority: 910
