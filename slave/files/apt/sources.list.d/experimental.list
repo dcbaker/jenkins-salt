@@ -1,0 +1,2 @@
+deb http://linux-ftp.jf.intel.com/pub/mirrors/debian/ experimental main
+deb-src http://linux-ftp.jf.intel.com/pub/mirrors/debian/ experimental main
