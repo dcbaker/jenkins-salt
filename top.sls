@@ -1,8 +1,3 @@
-dev:
-  '*snbgt1-03*':
-      - base
-      - slave
-      - runner
 base:
     '*':
         - base
