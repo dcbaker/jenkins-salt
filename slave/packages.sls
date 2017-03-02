@@ -42,6 +42,8 @@ runner-packages:
             - libcaca0:i386
             - libdrm2
             - libdrm2:i386
+            - libdrm-dev
+            - libdrm-dev:i386
             - libedit-dev
             - libegl1-mesa
             - libegl1-mesa
