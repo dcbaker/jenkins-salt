@@ -41,3 +41,7 @@ Pin-Priority: 910
 Package: libdrm-radeon1:i386
 Pin: release a=experimental
 Pin-Priority: 910
+
+Package: libdrm-dev:i386
+Pin: release a=experimental
+Pin-Priority: 910
