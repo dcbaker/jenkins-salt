@@ -30,6 +30,14 @@ Package: libdrm-intel1:i386
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libdrm-amdgpu1:i386
+Pin: release a=experimental
+Pin-Priority: 910
 
+Package: libdrm-nouveau2:i386
+Pin: release a=experimental
+Pin-Priority: 910
 
-
+Package: libdrm-radeon1:i386
+Pin: release a=experimental
+Pin-Priority: 910
