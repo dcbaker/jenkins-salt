@@ -174,5 +174,6 @@ runner-packages:
             - x11proto-present-dev
             - xserver-xorg
             - xutils-dev
+            - intel-microcode
 
 # vim: ft=yaml
