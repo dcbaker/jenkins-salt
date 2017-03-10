@@ -67,3 +67,10 @@
         - mode: 644
         - require:
             - file: /etc/apt/sources.list.d/
+
+/etc/apt/sources.list:
+    file.managed:
+        - source: salt://slave/files/apt/sources.list
+        - user: root
+        - group: root
+        - mode: 644
