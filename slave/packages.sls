@@ -30,8 +30,8 @@ runner-packages:
             - freeglut3
             - freeglut3:i386
             - g++-multilib
-            - gcc-5-base
-            - gcc-5-base:i386
+            - gcc-6-base
+            - gcc-6-base:i386
             - gcc-multilib
             - git
             - libc6
