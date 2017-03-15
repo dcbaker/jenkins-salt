@@ -12,7 +12,10 @@
         - mode: 644
         - require:
             - file: /etc/apt/preferences.d/
+            - file: /etc/apt/sources.list.d/stable.list
             - file: /etc/apt/sources.list.d/unstable.list
+            - file: /etc/apt/sources.list.d/testing.list
+            - file: /etc/apt/sources.list.d/experimental.list
 
 /etc/apt/preferences.d/libjpeg8:
     file.managed:
@@ -23,6 +26,17 @@
         - require:
             - file: /etc/apt/preferences.d/
             - file: /etc/apt/sources.list.d/unstable.list
+
+/etc/apt/preferences.d/libpng12:
+    file.managed:
+        - source: salt://slave/files/apt/preferences.d/libpng12
+        - user: root
+        - group: root
+        - mode: 644
+        - require:
+            - file: /etc/apt/preferences.d/
+            - file: /etc/apt/sources.list.d/stable.list
+
 
 /etc/apt/preferences.d/tsocks:
     file.managed:
@@ -49,6 +63,15 @@
         - user: root
         - group: root
         - mode: 755
+
+/etc/apt/sources.list.d/stable.list:
+    file.managed:
+        - source: salt://slave/files/apt/sources.list.d/stable.list
+        - user: root
+        - group: root
+        - mode: 644
+        - require:
+            - file: /etc/apt/sources.list.d/
 
 /etc/apt/sources.list.d/unstable.list:
     file.managed:

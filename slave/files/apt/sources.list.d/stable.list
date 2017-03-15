@@ -1,0 +1,4 @@
+deb http://linux-ftp.jf.intel.com/pub/mirrors/debian/ stable main
+deb-src http://linux-ftp.jf.intel.com/pub/mirrors/debian/ stable main
+
+# vim: ft=debsources
