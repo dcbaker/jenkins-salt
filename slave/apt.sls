@@ -14,7 +14,6 @@
             - file: /etc/apt/preferences.d/
             - file: /etc/apt/sources.list.d/stable.list
             - file: /etc/apt/sources.list.d/unstable.list
-            - file: /etc/apt/sources.list.d/testing.list
             - file: /etc/apt/sources.list.d/experimental.list
 
 /etc/apt/preferences.d/libjpeg8:
