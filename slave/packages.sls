@@ -18,6 +18,7 @@ runner-packages:
             - asciidoc
             - autoconf
             - avahi-daemon
+            - bc
             - bison
             - build-essential
             - ccache
@@ -83,6 +84,7 @@ runner-packages:
             - libglu1-mesa:i386
             - libicu-dev
             - libjpeg-dev
+            - libjpeg8
             - libllvm3.9
             - libllvm3.9:i386
             - libpciaccess-dev
