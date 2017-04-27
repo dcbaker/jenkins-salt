@@ -167,7 +167,6 @@ runner-packages:
             - scons
             - sudo
             - valgrind
-            - vim
             - vim-nox
             - x11proto-dri2-dev
             - x11proto-dri3-dev
