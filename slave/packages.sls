@@ -23,7 +23,6 @@ runner-packages:
             - build-essential
             - ccache
             - clang
-            - clang-3.7
             - cmake
             - docbook-website
             - emacs
