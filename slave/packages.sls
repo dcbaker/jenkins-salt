@@ -175,7 +175,5 @@ runner-packages:
             - xserver-xorg
             - xutils-dev
             - intel-microcode
-            - libpng12-0
-            - libpng12-0:i386
 
 # vim: ft=yaml
