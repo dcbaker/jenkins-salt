@@ -9,7 +9,7 @@ master-packages:
         - pkgs:
             - tsocks
             - screen
-            - openjdk-7-jre
+            - openjdk-8-jre
             - python-beautifulsoup
             - python-git
             - vim
