@@ -100,8 +100,6 @@ runner-packages:
             - libtinfo-dev
             - libtinfo-dev:i386
             - libtool
-            - libudev-dev
-            - libudev-dev:i386
             - libvdpau-dev
             - libvdpau-dev:i386
             - libvulkan-dev
