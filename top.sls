@@ -8,6 +8,10 @@ base:
     'otc-gfx*':
         - slave
         - runner
+    'otc-gfxtest*':
+        - test
+    'otc-gfxperf*':
+        - perf
     '*snb*':
         - snb
 

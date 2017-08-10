@@ -1,20 +1,20 @@
 /etc/salt/minion.d/master.conf:
   file.managed: 
-    - source: salt://base/files/minion/master.yaml
+    - source: salt://perf/files/minion/master.yaml
     - user: root
     - group: root
     - mode: 644
 
 /etc/salt/minion.d/startup.conf:
   file.managed: 
-    - source: salt://base/files/minion/startup.yaml
+    - source: salt://perf/files/minion/startup.yaml
     - user: root
     - group: root
     - mode: 644
 
 /etc/salt/minion.d/schedule.conf:
     file.managed:
-        - source: salt://base/files/minion/schedule.yaml
+        - source: salt://perf/files/minion/schedule.yaml
         - user: root
         - group: root
         - mode: 644
