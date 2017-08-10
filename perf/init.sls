@@ -1,0 +1,2 @@
+include:
+    - perf.minion
