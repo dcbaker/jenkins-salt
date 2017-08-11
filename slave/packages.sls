@@ -147,6 +147,7 @@ runner-packages:
             - ninja-build
             - openjdk-8-jre
             - pkg-config
+            - psmisc
             - python-git
             - python-lxml
             - python-mako
