@@ -1,16 +1,18 @@
 base:
     '*':
         - base
-    'otc-mesa-ci*':
+    'roles:jenkins':
+        - match: grain
         - master
-    'otc-mesa-android*':
-        - master
-    'otc-gfx*':
+    'roles:conformance':
+        - match: grain
         - slave
         - runner
-    'otc-gfxtest*':
         - test
-    'otc-gfxperf*':
+    'roles:performance':
+        - match: grain
+        - slave
+        - runner
         - perf
     '*snb*':
         - snb
