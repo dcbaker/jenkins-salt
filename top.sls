@@ -14,6 +14,10 @@ base:
         - slave
         - runner
         - perf
+    'roles:builder':
+        - match: grain
+        - slave
+        - builder
     '*snb*':
         - snb
 
