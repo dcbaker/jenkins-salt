@@ -1,0 +1,3 @@
+Package: salt-minion
+Pin: release a=unstable
+Pin-Priority: 910
