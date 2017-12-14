@@ -1,3 +1,7 @@
 Package: salt-minion
 Pin: release a=unstable
 Pin-Priority: 910
+
+Package: salt-common
+Pin: release a=unstable
+Pin-Priority: 910
