@@ -17,4 +17,5 @@ builder-packages:
           - libva-dev 
           - libva-dev:i386
           - libomxil-bellagio-dev
+          - libomxil-bellagio0
           - libomxil-bellagio0:i386
