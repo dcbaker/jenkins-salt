@@ -105,6 +105,8 @@ runner-packages:
             - libvulkan-dev
             - libvulkan1
             - libvulkan1:i386
+            - libwayland-cursor0
+            - libwayland-cursor0:i386
             - libwayland-egl1-mesa
             - libwayland-egl1-mesa:i386
             - libx11-dev
