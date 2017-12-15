@@ -18,3 +18,4 @@ builder-packages:
           - libva-dev:i386
           - libomxil-bellagio-dev
           - libxkbcommon-dev
+          - meson
