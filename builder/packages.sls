@@ -17,3 +17,4 @@ builder-packages:
           - libva-dev 
           - libva-dev:i386
           - libomxil-bellagio-dev
+          - libxkbcommon-dev
