@@ -19,3 +19,4 @@ builder-packages:
           - libomxil-bellagio-dev
           - libxkbcommon-dev
           - meson
+          - wayland-protocols
