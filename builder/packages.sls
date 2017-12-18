@@ -20,3 +20,4 @@ builder-packages:
           - libxkbcommon-dev
           - meson
           - wayland-protocols
+          - libegl1-mesa-dev:i386
