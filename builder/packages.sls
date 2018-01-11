@@ -21,3 +21,4 @@ builder-packages:
           - meson
           - wayland-protocols
           - libegl1-mesa-dev:i386
+          - libclc-dev
