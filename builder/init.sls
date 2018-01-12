@@ -3,3 +3,4 @@ include:
     - builder.packages
     - builder.sysctl
     - builder.pkg_workarounds
+    - builder.apt
