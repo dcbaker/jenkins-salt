@@ -4,12 +4,14 @@
 
 include:
     - base.timesyncd
+    - base.sources
     - slave.apt
 
 runner-packages:
     pkg.installed:
         - require:
             - sls: base.timesyncd
+            - sls: base.sources
             - sls: slave.apt
         - refresh: True
         - normalize: False
