@@ -9,11 +9,11 @@ update-grub:
     cmd.run:
         - onchanges:
             - file: /etc/default/grub
-    module.run:
-        - name: system.reboot
-        - onchanges:
-            - file: /etc/default/grub
-        - order: last
+    #module.run:
+        #- name: system.reboot
+        #- onchanges:
+            #- file: /etc/default/grub
+        #- order: last
 
 
 # vim: ft=yaml
