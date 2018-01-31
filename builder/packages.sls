@@ -22,3 +22,4 @@ builder-packages:
           - wayland-protocols
           - libegl1-mesa-dev:i386
           - libclc-dev
+          - libclang-3.9-dev
