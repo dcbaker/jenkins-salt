@@ -25,3 +25,5 @@ builder-packages:
           - libclang-3.9-dev
           - libllvm4.0
           - libllvm4.0:i386
+          - llvm-4.0-dev
+          - llvm-4.0-dev:i386
