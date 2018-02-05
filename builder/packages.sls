@@ -26,4 +26,3 @@ builder-packages:
           - libllvm4.0
           - libllvm4.0:i386
           - llvm-4.0-dev
-          - llvm-4.0-dev:i386
