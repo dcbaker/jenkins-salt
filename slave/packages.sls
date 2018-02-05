@@ -83,8 +83,6 @@ runner-packages:
             - libglu1-mesa:i386
             - libicu-dev
             - libjpeg-dev
-            - libllvm3.9
-            - libllvm3.9:i386
             - libpciaccess-dev
             - libpciaccess-dev:i386
             - libpciaccess0
@@ -146,7 +144,6 @@ runner-packages:
             - libxxf86vm-dev:i386
             - linux-libc-dev
             - linux-libc-dev:i386
-            - llvm
             - nfs-common
             - ninja-build
             - openjdk-8-jre

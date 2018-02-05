@@ -23,3 +23,5 @@ builder-packages:
           - libegl1-mesa-dev:i386
           - libclc-dev
           - libclang-3.9-dev
+          - libllvm4.0
+          - libllvm4.0:i386
