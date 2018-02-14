@@ -9,3 +9,11 @@
 /etc/systemd/system/reboot_hung_systems.service:
     file.symlink:
       - target: /var/lib/git/mesa_jenkins/services/reboot_hung_systems/reboot_hung_systems.service
+
+/etc/systemd/system/reboot_hung_systems-watcher.service:
+    file.symlink:
+      - target: /var/lib/git/mesa_jenkins/services/reboot_hung_systems/reboot_hung_systems-watcher.service
+
+/etc/systemd/system/reboot_hung_systems-watcher.path:
+    file.symlink:
+      - target: /var/lib/git/mesa_jenkins/services/reboot_hung_systems/reboot_hung_systems-watcher.path
