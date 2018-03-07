@@ -4,3 +4,4 @@ include:
     - builder.sysctl
     - builder.pkg_workarounds
     - builder.apt
+    - builder.repo
