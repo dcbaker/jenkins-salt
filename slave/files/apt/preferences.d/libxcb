@@ -1,16 +1,12 @@
-Package: libx11-dev
+Package: libxcb1
 Pin: release a=experimental
 Pin-Priority: 910
 
-Package: libx11-dev:i386
+Package: libxcb1-dev
 Pin: release a=experimental
 Pin-Priority: 910
 
-Package: libx11-xcb-dev
-Pin: release a=experimental
-Pin-Priority: 910
-
-Package: libx11-xcb-dev:i386
+Package: libxcb-dri2-0
 Pin: release a=experimental
 Pin-Priority: 910
 
@@ -18,7 +14,15 @@ Package: libxcb-dri2-0-dev
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libxcb-dri2-0i386
+Pin: release a=experimental
+Pin-Priority: 910
+
 Package: libxcb-dri2-0-dev:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libxcb-dri3
 Pin: release a=experimental
 Pin-Priority: 910
 
@@ -26,7 +30,15 @@ Package: libxcb-dri3-dev
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libxcb-dri3i386
+Pin: release a=experimental
+Pin-Priority: 910
+
 Package: libxcb-dri3-dev:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libxcb-glx0
 Pin: release a=experimental
 Pin-Priority: 910
 
@@ -34,7 +46,15 @@ Package: libxcb-glx0-dev
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libxcb-glx0:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
 Package: libxcb-glx0-dev:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libxcb-present
 Pin: release a=experimental
 Pin-Priority: 910
 
@@ -42,7 +62,15 @@ Package: libxcb-present-dev
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libxcb-present:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
 Package: libxcb-present-dev:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libxcb-randr0
 Pin: release a=experimental
 Pin-Priority: 910
 
@@ -50,7 +78,15 @@ Package: libxcb-randr0-dev
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libxcb-randr0:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
 Package: libxcb-randr0-dev:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libxcb-sync
 Pin: release a=experimental
 Pin-Priority: 910
 
@@ -58,11 +94,23 @@ Package: libxcb-sync-dev
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libxcb-sync:i386
+Pin: release a=experimental
+Pin-Priority: 910
+
 Package: libxcb-sync-dev:i386
 Pin: release a=experimental
 Pin-Priority: 910
 
+Package: libxcb-xfixes0
+Pin: release a=experimental
+Pin-Priority: 910
+
 Package: libxcb-xfixes0-dev
+Pin: release a=experimental
+Pin-Priority: 910
+
+Package: libxcb-xfixes0:i386
 Pin: release a=experimental
 Pin-Priority: 910
 
