@@ -14,7 +14,7 @@ Package: libxcb-dri2-0-dev
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-dri2-0i386
+Package: libxcb-dri2-0:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
@@ -30,7 +30,7 @@ Package: libxcb-dri3-dev
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-dri3i386
+Package: libxcb-dri3:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
