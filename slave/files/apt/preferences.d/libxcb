@@ -6,6 +6,14 @@ Package: libxcb1-dev
 Pin: release a=unstable
 Pin-Priority: 910
 
+Package: libxcb1:i386
+Pin: release a=unstable
+Pin-Priority: 910
+
+Package: libxcb1-dev:i386
+Pin: release a=unstable
+Pin-Priority: 910
+
 Package: libxcb-dri2-0
 Pin: release a=unstable
 Pin-Priority: 910
@@ -22,7 +30,7 @@ Package: libxcb-dri2-0-dev:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-dri3
+Package: libxcb-dri3-0
 Pin: release a=unstable
 Pin-Priority: 910
 
@@ -30,7 +38,7 @@ Package: libxcb-dri3-dev
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-dri3:i386
+Package: libxcb-dri3-0:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
@@ -54,7 +62,7 @@ Package: libxcb-glx0-dev:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-present
+Package: libxcb-present0
 Pin: release a=unstable
 Pin-Priority: 910
 
@@ -62,7 +70,7 @@ Package: libxcb-present-dev
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-present:i386
+Package: libxcb-present0:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
@@ -86,7 +94,7 @@ Package: libxcb-randr0-dev:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-sync
+Package: libxcb-sync1
 Pin: release a=unstable
 Pin-Priority: 910
 
@@ -94,7 +102,7 @@ Package: libxcb-sync-dev
 Pin: release a=unstable
 Pin-Priority: 910
 
-Package: libxcb-sync:i386
+Package: libxcb-sync1:i386
 Pin: release a=unstable
 Pin-Priority: 910
 
