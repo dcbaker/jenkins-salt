@@ -38,7 +38,7 @@ builder-packages:
           - lib32ncurses5-dev
           - lib32z-dev
           - libc6-dev-i386
-          - libgl1--dev
+          - libgl1-mesa-dev
           - libncurses5-dev:i386
           - libreadline6-dev:i386
           - libxml2-utils
