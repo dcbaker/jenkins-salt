@@ -167,7 +167,6 @@ runner-packages:
             - rsync
             - scons
             - sudo
-            - valgrind
             - vim-nox
             - x11proto-dri2-dev
             - x11proto-dri3-dev
