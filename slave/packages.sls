@@ -102,9 +102,9 @@ runner-packages:
             - libudev-dev:i386
             - libvdpau-dev
             - libvdpau-dev:i386
-            - libvulkan-dev
-            - libvulkan1
-            - libvulkan1:i386
+            - libvulkan-dev: 1.1.70+dfsg1-1
+            - libvulkan1: 1.1.70+dfsg1-1
+            - libvulkan1:i386: 1.1.70+dfsg1-1
             - libwayland-cursor0
             - libwayland-cursor0:i386
             - libwayland-egl1-mesa
