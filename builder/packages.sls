@@ -42,6 +42,7 @@ builder-packages:
           - libncurses5-dev:i386
           - libreadline6-dev:i386
           - libxml2-utils
+          - libxrandr-dev
           - lunch
           - mtools
           - openjdk-8-jdk
@@ -52,6 +53,7 @@ builder-packages:
           - tofrodos
           - unzip
           - x11proto-core-dev
+          - x11proto-dev
           - xsltproc
           - zip
           - zlib1g-dev
