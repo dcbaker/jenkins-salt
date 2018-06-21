@@ -43,6 +43,7 @@ builder-packages:
           - libreadline6-dev:i386
           - libxml2-utils
           - libxrandr-dev
+          - libxrandr-dev:i386
           - lunch
           - mtools
           - openjdk-8-jdk
