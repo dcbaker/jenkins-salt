@@ -36,6 +36,7 @@ runner-packages:
             - gcc-6-base:i386
             - gcc-multilib
             - git
+            - glslang-tools
             - libc6
             - libc6-dev
             - libc6-dev:i386
