@@ -58,3 +58,5 @@ builder-packages:
           - xsltproc
           - zip
           - zlib1g-dev
+            # Dependency for building SKQP
+          - libfontconfig1-dev
