@@ -3,3 +3,4 @@ include:
     - slave.packages
     - slave.ssh_keys
     - slave.sysctl
+    - slave.systemd
