@@ -4,5 +4,3 @@
         - user: root
         - group: root
         - mode: 644
-        - require:
-            - file: /etc/sysctl.d
