@@ -161,6 +161,7 @@ runner-packages:
             - python3
             - python3-lxml
             - python3-mako
+            - python3-opencv
             - python3-numpy
             - python3-simplejson
             - python3-six
