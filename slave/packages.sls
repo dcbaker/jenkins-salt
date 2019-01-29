@@ -168,6 +168,7 @@ runner-packages:
             - quilt
             - rsync
             - scons
+            - spirv-tools
             - sudo
             - vim-nox
             - x11proto-dri2-dev
