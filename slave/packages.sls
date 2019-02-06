@@ -26,6 +26,8 @@ runner-packages:
             - ccache
             - clang
             - cmake
+            - chromium
+            - chromium-driver
             - docbook-website
             - emacs
             - flex
@@ -163,6 +165,7 @@ runner-packages:
             - python3-mako
             - python3-opencv
             - python3-numpy
+            - python-selenium 
             - python3-simplejson
             - python3-six
             - quilt
