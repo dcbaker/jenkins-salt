@@ -29,6 +29,7 @@ runner-packages:
             - chromium
             - chromium-driver
             - docbook-website
+            - elpa-use-package
             - emacs
             - flex
             - freeglut3
