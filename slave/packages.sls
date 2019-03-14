@@ -35,11 +35,12 @@ runner-packages:
             - freeglut3
             - freeglut3:i386
             - g++-multilib
-            - gcc-6-base
-            - gcc-6-base:i386
+            - gcc-7-base
+            - gcc-7-base:i386
             - gcc-multilib
             - git
             - glslang-tools
+            - lib32stdc++-7-dev
             - libc6
             - libc6-dev
             - libc6-dev:i386
@@ -140,6 +141,9 @@ runner-packages:
             - libxfixes-dev
             - libxfixes-dev:i386
             - libxml2-dev
+            - libxrandr2
+            - libxrandr2:i386
+            - libxrandr-dev:i386
             - libxrender1
             - libxrender1:i386
             - libxshmfence-dev
@@ -158,17 +162,20 @@ runner-packages:
             - python-mako
             - python-numpy
             - python-opencv
+            - python-selenium 
             - python-simplejson
             - python-subprocess32
             - python-yaml
             - python3
+            - python3-git
             - python3-lxml
             - python3-mako
             - python3-opencv
             - python3-numpy
-            - python-selenium 
+            - python3-selenium 
             - python3-simplejson
             - python3-six
+            - python3-yaml
             - quilt
             - rsync
             - scons
