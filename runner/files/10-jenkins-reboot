@@ -2,6 +2,7 @@ jenkins   ALL=(root: root) NOPASSWD: /sbin/reboot
 jenkins   ALL=(root: root) NOPASSWD: /usr/local/bin/copy_error_state.sh
 jenkins   ALL=(root: root) NOPASSWD: /bin/journalctl
 jenkins   ALL=(root: root) NOPASSWD: /bin/systemctl
+jenkins   ALL=(root: root) NOPASSWD: /bin/systemd-run
 jenkins   ALL=(root: root) NOPASSWD: /sbin/sysctl
 jenkins   ALL=(root: root) NOPASSWD: /usr/bin/apt
 jenkins   ALL=(root: root) NOPASSWD: /usr/bin/apt-get
