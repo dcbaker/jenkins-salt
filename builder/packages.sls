@@ -60,3 +60,6 @@ builder-packages:
           - zlib1g-dev
             # Dependency for building SKQP
           - libfontconfig1-dev
+            # Required for building mesa with -Dintel-ui
+          - libgtk-3-dev
+          - libepoxy-dev
