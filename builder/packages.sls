@@ -63,3 +63,4 @@ builder-packages:
             # Required for building mesa with -Dintel-ui
           - libgtk-3-dev
           - libepoxy-dev
+          - libcairo2-dev:i386
