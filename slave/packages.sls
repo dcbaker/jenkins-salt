@@ -51,13 +51,11 @@ runner-packages:
             - libdrm2:i386
             - libdrm-dev
             - libedit-dev
-            - libegl1-mesa
+            - libegl-mesa0
             - libegl1-mesa
             - libegl1-mesa-dev
-            - libegl1-mesa-drivers
-            - libegl1-mesa-drivers:i386
             - libegl1-mesa:i386
-            - libegl1-mesa:i386
+            - libegl-mesa0:i386
             - libelf-dev
             - libelf-dev:i386
             - libexpat1-dev
