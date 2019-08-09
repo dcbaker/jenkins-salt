@@ -100,7 +100,7 @@ runner-packages:
             - libssl-dev:i386
             - libssl1.0.2
             - libssl1.0.2:i386
-              libsm6:i386
+            - libsm6:i386
             - libtinfo-dev
             - libtinfo-dev:i386
             - libtool
