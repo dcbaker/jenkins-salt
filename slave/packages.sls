@@ -96,8 +96,8 @@ runner-packages:
             - libsdl2-2.0-0
             - libssl-dev
             - libssl-dev:i386
-            - libssl1.0.2
-            - libssl1.0.2:i386
+            - libssl1.1
+            - libssl1.1:i386
             - libsm6:i386
             - libtinfo-dev
             - libtinfo-dev:i386
