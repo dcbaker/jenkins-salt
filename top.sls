@@ -18,7 +18,5 @@ base:
         - match: grain
         - slave
         - builder
-    '*snb*':
-        - snb
 
 # vim: ft=yaml
