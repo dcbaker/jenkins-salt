@@ -32,6 +32,7 @@ builder-packages:
           - dosfstools
           - gettext
           - git-core
+          - python-pystache
             # Android lists this as a dependency
           - gnupg
           - gperf
