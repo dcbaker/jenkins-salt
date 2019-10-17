@@ -1,2 +1,3 @@
 /srv/jenkins    *(rw,async,no_subtree_check,all_squash)
 /srv/jenkins/results    *(rw,async,no_subtree_check,all_squash)
+/mnt/space/fulsim_cache    *(rw,async,no_subtree_check,all_squash)
